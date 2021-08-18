@@ -1,4 +1,4 @@
-/logs
-/logs/*
-/file:/
-/file:/*
+logs
+logs/*
+file:/
+file:/*
