@@ -11,7 +11,7 @@ pipeline {
                     export AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID
                     export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
                     export AWS_DEFAULT_REGION=us-west-2
-                    aws cloudformation create-stack --stack-name vpcproduccion --template-body file://vpcStack.yml --parameters ParameterKey=myVpcParm,ParameterValue=$myvpc --capabilities CAPABILITY_NAMED_IAM
+                    aws cloudformation create-stack --stack-name vpcproduccion --template-body file://vpcStack.yml --capabilities CAPABILITY_NAMED_IAM
                 '''
             }
         }
