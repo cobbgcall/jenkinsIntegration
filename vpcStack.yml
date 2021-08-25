@@ -8,7 +8,7 @@ Resources:
     Properties:
       CidrBlock: 10.207.0.0/16
       EnableDnsSupport: true
-      EnableDnsHostname: true
+      EnableDnsHostnames: true
       Tags:
         - Key: Environment
           Value: Pre-Production
