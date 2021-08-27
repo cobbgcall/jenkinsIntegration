@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: 2010-09-09
-Description: Lauch VPC throught Jenkins
+Description: Provisioning VPC to create a production environment
 
 Resources:
 
@@ -11,4 +11,6 @@ Resources:
       EnableDnsHostnames: true
       Tags:
         - Key: Environment
-          Value: Pre-Production
+          Value: Production
+        - Key: Project
+          Value: IaC
