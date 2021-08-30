@@ -14,3 +14,11 @@ Resources:
           Value: Production
         - Key: Project
           Value: IaC
+
+Output:
+
+  myVPC:
+    Description: Information about the value
+    Value: !Ref myVPC
+    Export: 
+      Name: !Ref myVPC
