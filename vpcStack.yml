@@ -15,7 +15,7 @@ Resources:
         - Key: Project
           Value: IaC
 
-Output:
+Outputs:
 
   myVPC:
     Description: Information about the value
