@@ -19,6 +19,6 @@ Outputs:
 
   myVPC:
     Description: Information about the value
-    Value: Fn::GetAtt myVPC.vpcId
+    Value: !Ref myVPC
     Export:
       Name: !Sub "${AWS::StackName}-VPCID" 
